@@ -265,7 +265,7 @@ curl -X POST "http://127.0.0.1:8000/ask"   -H "Content-Type: application/json"  
 
 ---
 
-## Sample demo script for interviews
+## Demo script
 
 1. Start the API and dashboard
 2. Ingest 3–5 documents from different business domains
@@ -278,7 +278,7 @@ curl -X POST "http://127.0.0.1:8000/ask"   -H "Content-Type: application/json"  
 
 ---
 
-## Resume-ready bullets
+## Important Points
 
 - Built an end-to-end **document intelligence platform** using FastAPI, scikit-learn, and Streamlit to classify documents, extract structured fields, and support grounded question-answering over enterprise text corpora.
 - Designed a modular **AI inference pipeline** with model persistence, semantic retrieval, explainable evidence snippets, and human feedback capture to simulate production-grade ML system design.
@@ -290,11 +290,10 @@ curl -X POST "http://127.0.0.1:8000/ask"   -H "Content-Type: application/json"  
 
 This project is intentionally designed to be:
 - **runnable locally**
-- **easy to explain in interviews**
 - **architecturally extensible**
 - **advanced enough to showcase senior-level thinking**
 
-For a stronger portfolio version, the next step would be integrating:
+The next step would be integrating:
 - OCR for scanned PDFs
 - LLM-backed extraction
 - vector database retrieval
