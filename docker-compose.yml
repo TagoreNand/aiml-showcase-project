@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: docupilot-api
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_ENV=development
+      - MODEL_DIR=data/models
+      - CORPUS_PATH=data/processed/corpus.json
+      - FEEDBACK_PATH=data/processed/feedback.jsonl
+      - TRAINING_DATA_PATH=data/raw/training_documents.json
