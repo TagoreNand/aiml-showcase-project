@@ -59,8 +59,6 @@ It ingests documents, classifies them, extracts structured fields, indexes them 
 
 ## Architecture
 
-![Architecture](docs/architecture.png)
-
 ```mermaid
 flowchart LR
     A[User / Product App] --> B[FastAPI Backend]
