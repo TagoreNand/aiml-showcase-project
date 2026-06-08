@@ -289,7 +289,6 @@ curl -X POST "http://127.0.0.1:8000/ask"   -H "Content-Type: application/json"  
 This project is intentionally designed to be:
 - **runnable locally**
 - **architecturally extensible**
-- **advanced enough to showcase senior-level thinking**
 
 The next step would be integrating:
 - OCR for scanned PDFs
