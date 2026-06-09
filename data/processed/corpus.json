@@ -1,6 +1,23 @@
 [
   {
+    "document_id": "cv_1",
+    "text": "Resume: Jane Smith, ML engineer, jane@x.com",
+    "tenant_id": "public",
+    "metadata": {
+      "source_file": "note.txt",
+      "ocr_source": "text"
+    }
+  },
+  {
+    "document_id": "x",
+    "text": "hello world doc",
+    "tenant_id": "public",
+    "metadata": {}
+  },
+  {
     "document_id": "test_search_doc",
-    "text": "Priority critical. Search latency spiked after deployment for enterprise users."
+    "text": "Priority critical. Search latency spiked after deployment for enterprise users.",
+    "tenant_id": "public",
+    "metadata": {}
   }
 ]

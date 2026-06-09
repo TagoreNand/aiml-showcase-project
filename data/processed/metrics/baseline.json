@@ -1,0 +1,12 @@
+{
+  "label_counts": {
+    "resume": 40,
+    "invoice": 40,
+    "contract": 40,
+    "support_ticket": 39
+  },
+  "n": 159,
+  "avg_length": 131.9811320754717,
+  "min_length": 82,
+  "max_length": 207
+}

@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------------------
+# Optional / production extension dependencies.
+#
+# The core app (requirements.txt) runs fully without any of these. Each block
+# below "unlocks" an advanced backend. Install only what you need, e.g.:
+#
+#   pip install -r requirements-optional.txt
+#
+# Every integration degrades gracefully to the local default when its
+# dependency (or credential) is missing, so partial installs are fine.
+# ---------------------------------------------------------------------------
+
+# --- Vector DB persistence (VECTOR_BACKEND=pgvector) ---
+psycopg[binary]==3.2.3
+pgvector==0.3.6
+
+# --- Dense embeddings (EMBEDDING_BACKEND=sentence-transformers) ---
+sentence-transformers==3.0.1
+
+# --- OCR for scanned PDFs / images (OCR_ENABLED=true) ---
+# NOTE: also requires system packages: tesseract-ocr and poppler-utils
+pytesseract==0.3.13
+pdf2image==1.17.0
+Pillow==10.4.0
+pypdf==4.3.1
+
+# --- NER / LLM extraction (EXTRACTION_BACKEND=ner|llm) ---
+spacy==3.7.6
+# python -m spacy download en_core_web_sm
+openai==1.51.0
+anthropic==0.34.2
+
+# --- MLOps: experiment tracking + registry (MLFLOW_ENABLED=true) ---
+mlflow==2.16.2
+
+# --- Observability (PROMETHEUS_ENABLED=true) ---
+prometheus-client==0.21.0
+prometheus-fastapi-instrumentator==7.0.0
+
+# --- Drift / data quality monitoring ---
+evidently==0.4.40
+
+# --- Async workflows (TASK_BACKEND=celery) ---
+celery==5.4.0
+redis==5.0.8

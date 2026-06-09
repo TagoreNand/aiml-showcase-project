@@ -10,6 +10,18 @@ class DocumentIn(BaseModel):
 class IngestResponse(BaseModel):
     message: str
     corpus_size: int
+    tenant_id: str = "public"
+
+
+class FileIngestResponse(BaseModel):
+    message: str
+    document_id: str
+    corpus_size: int
+    tenant_id: str = "public"
+    ocr_source: str
+    ocr_used: bool
+    chars_extracted: int
+    notes: List[str] = []
 
 
 class ClassificationResult(BaseModel):
@@ -22,6 +34,7 @@ class AnalysisResponse(BaseModel):
     classification: ClassificationResult
     entities: Dict[str, Any]
     summary: str
+    extraction_methods: List[str] = ["rules"]
 
 
 class SearchRequest(BaseModel):
@@ -38,6 +51,7 @@ class SearchResult(BaseModel):
 class SearchResponse(BaseModel):
     query: str
     results: List[SearchResult]
+    tenant_id: str = "public"
 
 
 class AskRequest(BaseModel):
@@ -49,6 +63,7 @@ class AskResponse(BaseModel):
     question: str
     answer: str
     evidence: List[SearchResult]
+    answer_backend: str = "extractive"
 
 
 class FeedbackRequest(BaseModel):
@@ -63,3 +78,24 @@ class MetricsResponse(BaseModel):
     documents_indexed: int
     feedback_records: int
     available_labels: List[str]
+    vector_backend: str = "memory"
+    extraction_backend: str = "rules"
+    tenants: List[str] = []
+
+
+class TokenResponse(BaseModel):
+    access_token: str
+    token_type: str = "bearer"
+    role: str
+    tenant_id: str
+
+
+class MeResponse(BaseModel):
+    username: str
+    role: str
+    tenant_id: str
+
+
+class RetrainResponse(BaseModel):
+    message: str
+    status: str

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+# runtime artifacts (regenerated)
+data/processed/audit.jsonl
+data/processed/metrics/live_stats.json
+mlruns/
+.pytest_cache/
+pytest-cache-files-*/
+mlflow.db
+mlflow.db-journal
+*.sqlite
+.cache/

@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-06-08T20:57:34.477934+00:00",
+  "model_path": "C:\\Users\\Home\\Downloads\\aiml-showcase-project-main\\aiml-showcase-project-main\\data\\models\\document_classifier.joblib",
+  "params": {
+    "model": "LogisticRegression",
+    "vectorizer": "tfidf(1,2)",
+    "max_iter": 1000,
+    "n_samples": 159,
+    "n_classes": 4
+  },
+  "metrics": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "n_train": 119,
+    "n_test": 40
+  },
+  "labels": [
+    "contract",
+    "invoice",
+    "resume",
+    "support_ticket"
+  ],
+  "mlflow_logged": true
+}

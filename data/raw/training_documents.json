@@ -1,98 +1,638 @@
 [
   {
-    "label": "invoice",
-    "text": "Invoice INV-1001 from Acme Cloud for $1499 due on 2026-04-10. Payment terms net 30."
-  },
-  {
-    "label": "invoice",
-    "text": "Invoice INV-1002 from Delta Systems for $3250 due on 2026-04-12. Finance approval required."
+    "label": "resume",
+    "text": "Aisha Khan \u2014 full-stack engineer. Skilled in distributed systems and microservices. Bachelor's degree in Information Systems. Previously at Orion Logistics."
   },
   {
     "label": "invoice",
-    "text": "Monthly invoice INV-1003 issued by Nova Hosting for $799 due on 2026-04-15."
+    "text": "Invoice INV-6072 from Northwind Traders for $6,123 due on 2026-05-05. Payment terms net 30."
   },
   {
     "label": "invoice",
-    "text": "Vendor billing statement invoice INV-1004 from Zenith Analytics amount $5400 due on 2026-04-18."
+    "text": "Invoice INV-6966. Bill to finance department. Vendor Zenith Analytics. Amount $8412. Net 30 payment terms, due 2026-08-27."
+  },
+  {
+    "label": "contract",
+    "text": "Employment agreement between Initech and Hana Suzuki, effective 2026-05-26, governing the terms of engagement in Berlin."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Support ticket priority high. Customer reports API timeouts after a recent configuration change."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Incident report priority medium: authentication token expiry affecting multiple users. Investigating root cause after a database migration."
+  },
+  {
+    "label": "resume",
+    "text": "Emily Watson, data scientist. 9 years of hands-on experience with React, TypeScript and Node.js. Holds a degree in Electrical Engineering and previously worked at BlueOak Consulting."
   },
   {
     "label": "invoice",
-    "text": "Please review invoice INV-1005 from Vertex AI Labs for $1275 due on 2026-05-01."
+    "text": "Reminder: invoice INV-4265 from Zenith Analytics for $365 remains unpaid and was due on 2026-03-19."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Helpdesk ticket priority medium. Reported issue: checkout errors. Started immediately after the latest deployment."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Bug report: authentication token expiry. Severity medium. Began after a recent configuration change; several customers impacted."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Support ticket priority high. Customer reports authentication token expiry after an upstream provider outage."
+  },
+  {
+    "label": "contract",
+    "text": "Vendor contract between Delta Systems and Helios Retail for cloud infrastructure management. Term 18 months, governed by the laws of Washington, signed in Singapore."
+  },
+  {
+    "label": "resume",
+    "text": "Wei Zhang\nObjective: full-stack engineer position. Proficient in distributed systems and microservices. 13+ years building scalable systems. Education: Data Science."
+  },
+  {
+    "label": "resume",
+    "text": "Hana Suzuki \u2014 cloud solutions architect. Skilled in data warehousing and dbt. Bachelor's degree in Software Engineering. Previously at Cyberdyne Systems."
   },
   {
     "label": "invoice",
-    "text": "Invoice INV-1006 from Orbit Cloud Services amount $2280 due on 2026-04-27 for platform usage."
+    "text": "Receipt and invoice INV-9319 from Vandelay Industries: $948 charged for monthly subscription, payment due 2026-11-08."
   },
   {
     "label": "contract",
-    "text": "This service agreement is made between Alpha Retail Ltd and Sigma Data Works for a term of 12 months."
+    "text": "Non-disclosure agreement between Hooli and Stark Industries regarding cloud infrastructure management, executed on 2026-07-16 in Singapore."
+  },
+  {
+    "label": "invoice",
+    "text": "Monthly invoice INV-6571 issued by BlueOak Consulting for $2,995.36, due 2026-03-21. Please remit payment to accounts receivable."
+  },
+  {
+    "label": "resume",
+    "text": "Ava Johnson\nWork experience: backend developer at Northwind Traders. Core skills: Go, gRPC and event streaming. Education: Information Systems. Achievements include scaling to 1M daily users."
+  },
+  {
+    "label": "resume",
+    "text": "Michael Chen, machine learning engineer. 13 years of hands-on experience with SQL, Spark and ETL pipelines. Holds a degree in Computer Science and previously worked at Litware Systems."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Bug report: slow page load times. Severity medium. Began after the latest deployment; several customers impacted."
+  },
+  {
+    "label": "resume",
+    "text": "Michael Chen, software architect. 14 years of hands-on experience with Go, gRPC and event streaming. Holds a degree in Computer Science and previously worked at Delta Systems."
+  },
+  {
+    "label": "invoice",
+    "text": "Please find attached invoice INV-3439 from Vandelay Industries. Total amount $568 due 2026-01-24; late fees apply after the due date."
   },
   {
     "label": "contract",
-    "text": "Contract between Northwind Energy and BluePeak Solutions covering analytics services for 24 months."
+    "text": "Statement of work under the agreement between Helios Retail and Carlos Mendez: managed security services over a 24-month engagement with automatic renewal."
+  },
+  {
+    "label": "invoice",
+    "text": "Receipt and invoice INV-8633 from Helios Retail: $2,939.74 charged for monthly subscription, payment due 2026-05-13."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Ticket #3555: payment processing failures. Priority high. Reproduced on production after the weekend release. Escalating to engineering."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Bug report: email notifications not sending. Severity high. Began after an upstream provider outage; several customers impacted."
   },
   {
     "label": "contract",
-    "text": "Master services agreement between Meridian Bank and ArcLight Technologies for 18 months."
+    "text": "Statement of work under the agreement between Summit Financial and Noah Williams: data platform migration over a 36-month engagement with automatic renewal."
+  },
+  {
+    "label": "resume",
+    "text": "Curriculum vitae of Ava Johnson. Experienced full-stack engineer specializing in NLP, PyTorch and model deployment. Delivered key projects at Litware Systems."
+  },
+  {
+    "label": "resume",
+    "text": "Michael Chen\nSenior data engineer with 8 years of experience in data warehousing and dbt. Led projects improving model accuracy by 12 points."
   },
   {
     "label": "contract",
-    "text": "The agreement between FreshCart Holdings and PixelOps Consulting shall remain valid for 36 months."
+    "text": "Vendor contract between Jane Smith and Ava Johnson for managed security services. Term 6 months, governed by the laws of Texas, signed in Tokyo."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Ticket #1635: payment processing failures. Priority low. Reproduced on production after a database migration. Escalating to engineering."
+  },
+  {
+    "label": "invoice",
+    "text": "Please find attached invoice INV-2372 from BlueOak Consulting. Total amount $414 due 2026-09-23; late fees apply after the due date."
+  },
+  {
+    "label": "invoice",
+    "text": "Receipt and invoice INV-4000 from BlueOak Consulting: $9,643.81 charged for monthly subscription, payment due 2026-02-18."
+  },
+  {
+    "label": "invoice",
+    "text": "Please find attached invoice INV-9211 from Vandelay Industries. Total amount $7,954 due 2026-09-05; late fees apply after the due date."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Bug report: API timeouts. Severity high. Began after scaling up the cluster; several customers impacted."
   },
   {
     "label": "contract",
-    "text": "Software contract between Orion Logistics and Beacon AI Systems with a term of 6 months."
+    "text": "Licensing agreement between Helios Retail and Emily Watson granting usage rights for 36 months, effective 2026-07-02."
+  },
+  {
+    "label": "invoice",
+    "text": "Wayne Enterprises invoice INV-2359: subtotal $3440, applicable tax included, total payable by 2026-10-19."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Support ticket priority critical. Customer reports app crashes on startup after a recent configuration change."
+  },
+  {
+    "label": "invoice",
+    "text": "Monthly invoice INV-3645 issued by Cyberdyne Systems for $5,743, due 2026-05-12. Please remit payment to accounts receivable."
+  },
+  {
+    "label": "invoice",
+    "text": "Invoice INV-4362 from Orion Logistics for $9414 due on 2026-04-18. Payment terms net 45."
+  },
+  {
+    "label": "resume",
+    "text": "Emily Watson\nObjective: cloud solutions architect position. Proficient in Go, gRPC and event streaming. 7+ years building scalable systems. Education: Software Engineering."
+  },
+  {
+    "label": "resume",
+    "text": "Fatima Ali\nSenior cloud solutions architect with 8 years of experience in Go, gRPC and event streaming. Led projects cutting cloud costs by 30%."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Support ticket priority critical. Customer reports authentication token expiry after the weekend release."
+  },
+  {
+    "label": "invoice",
+    "text": "Orion Logistics invoice INV-8070: subtotal $6,667.68, applicable tax included, total payable by 2026-12-01."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Helpdesk ticket priority high. Reported issue: data sync issues. Started immediately after a certificate renewal."
   },
   {
     "label": "contract",
-    "text": "Enterprise agreement between Stellar Health and CloudForge Labs for 12 months of managed services."
-  },
-  {
-    "label": "resume",
-    "text": "Priya Sharma\nSenior Data Scientist\nEmail: priya.sharma@email.com\nBuilt churn models and NLP pipelines for financial analytics."
-  },
-  {
-    "label": "resume",
-    "text": "Rahul Mehta\nMachine Learning Engineer\nEmail: rahul.mehta@email.com\nExperience in MLOps, feature engineering, and model deployment."
-  },
-  {
-    "label": "resume",
-    "text": "Candidate: Anita Rao\nAI Engineer\nEmail: anita.rao@email.com\nWorked on computer vision and OCR systems."
-  },
-  {
-    "label": "resume",
-    "text": "Candidate: Karan Verma\nSoftware Engineer\nEmail: karan.verma@email.com\nBuilt distributed backend systems and recommender services."
-  },
-  {
-    "label": "resume",
-    "text": "Sneha Iyer\nApplied Scientist\nEmail: sneha.iyer@email.com\nDeveloped retrieval systems, transformers, and evaluation tooling."
-  },
-  {
-    "label": "resume",
-    "text": "Candidate: Vikas Nair\nData Analyst\nEmail: vikas.nair@email.com\nDelivered dashboards and experimentation frameworks."
+    "text": "Non-disclosure agreement between Zenith Analytics and Aperture Science regarding cloud infrastructure management, executed on 2026-07-09 in Mumbai."
   },
   {
     "label": "support_ticket",
-    "text": "Support ticket priority high. Customer reports login failures after deployment to production."
+    "text": "Helpdesk ticket priority high. Reported issue: API timeouts. Started immediately after scaling up the cluster."
   },
   {
     "label": "support_ticket",
-    "text": "Priority critical. Payment processing timeout observed in checkout service affecting premium users."
+    "text": "Incident report priority high: data sync issues affecting multiple users. Investigating root cause after scaling up the cluster."
+  },
+  {
+    "label": "contract",
+    "text": "This contract is made between BlueOak Consulting and Acme Cloud on 2026-02-16; the parties agree to the obligations set out herein."
+  },
+  {
+    "label": "invoice",
+    "text": "Apex Manufacturing invoice INV-7545: subtotal $3,773.86, applicable tax included, total payable by 2026-06-24."
+  },
+  {
+    "label": "contract",
+    "text": "Contract between Zenith Analytics and Michael Chen for logistics optimization. Either party may terminate with 30 days notice. Governing law: New York."
+  },
+  {
+    "label": "contract",
+    "text": "Statement of work under the agreement between Zenith Analytics and Northwind Traders: cloud infrastructure management over a 36-month engagement with automatic renewal."
+  },
+  {
+    "label": "invoice",
+    "text": "Monthly invoice INV-3415 issued by Atlas Compute for $2,808.37, due 2026-05-23. Please remit payment to accounts receivable."
+  },
+  {
+    "label": "resume",
+    "text": "Curriculum vitae of Priya Patel. Experienced software architect specializing in SQL, Spark and ETL pipelines. Delivered key projects at Litware Systems."
+  },
+  {
+    "label": "invoice",
+    "text": "Billing statement INV-2222 for services rendered by Apex Manufacturing. Amount payable $5,468 within 60 days."
+  },
+  {
+    "label": "contract",
+    "text": "Vendor contract between Quantum Ops and Initech for payroll processing. Term 6 months, governed by the laws of Texas, signed in Mumbai."
+  },
+  {
+    "label": "invoice",
+    "text": "Reminder: invoice INV-7405 from Zenith Analytics for $5268 remains unpaid and was due on 2026-11-13."
+  },
+  {
+    "label": "invoice",
+    "text": "Invoice INV-9477. Bill to finance department. Vendor BlueOak Consulting. Amount $4114. Net 60 payment terms, due 2026-03-27."
+  },
+  {
+    "label": "resume",
+    "text": "Resume \u2014 Grace Kim. Professional summary: backend developer with expertise in SQL, Spark and ETL pipelines and a track record of improving model accuracy by 12 points."
   },
   {
     "label": "support_ticket",
-    "text": "Support request priority medium. Search results are delayed by several seconds for mobile users."
+    "text": "Escalated support case priority low: customers experiencing login failures since scaling up the cluster."
   },
   {
     "label": "support_ticket",
-    "text": "Priority low. Dashboard export formatting issue reported by internal finance team."
+    "text": "Incident report priority critical: email notifications not sending affecting multiple users. Investigating root cause after the weekend release."
   },
   {
     "label": "support_ticket",
-    "text": "Support ticket priority high. API rate limiting incorrectly blocks legitimate enterprise traffic."
+    "text": "User submitted a low priority ticket about slow page load times. Logs show errors following a recent configuration change."
+  },
+  {
+    "label": "contract",
+    "text": "Licensing agreement between Globex Corporation and Michael Chen granting usage rights for 12 months, effective 2026-05-11."
+  },
+  {
+    "label": "resume",
+    "text": "Emily Watson, product manager. 14 years of hands-on experience with distributed systems and microservices. Holds a degree in Software Engineering and previously worked at Acme Cloud."
   },
   {
     "label": "support_ticket",
-    "text": "Priority medium. Data sync failed overnight and order updates are stale in the admin portal."
+    "text": "Support ticket priority medium. Customer reports API timeouts after a database migration."
+  },
+  {
+    "label": "contract",
+    "text": "Employment agreement between Initech and David Okafor, effective 2026-07-10, governing the terms of engagement in Dublin."
+  },
+  {
+    "label": "invoice",
+    "text": "Reminder: invoice INV-1642 from Contoso Ltd for $6979 remains unpaid and was due on 2026-08-23."
+  },
+  {
+    "label": "invoice",
+    "text": "Invoice INV-2319. Bill to finance department. Vendor Vandelay Industries. Amount $4799. Net 15 payment terms, due 2026-11-03."
+  },
+  {
+    "label": "contract",
+    "text": "Vendor contract between Litware Systems and Liam O'Brien for fraud detection services. Term 18 months, governed by the laws of Texas, signed in Berlin."
+  },
+  {
+    "label": "contract",
+    "text": "Contract between Aperture Science and Sofia Rossi for logistics optimization. Either party may terminate with 30 days notice. Governing law: New York."
+  },
+  {
+    "label": "invoice",
+    "text": "Invoice INV-3028 from Vandelay Industries for $199 due on 2026-10-10. Payment terms net 30."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Helpdesk ticket priority medium. Reported issue: search returning no results. Started immediately after the weekend release."
+  },
+  {
+    "label": "resume",
+    "text": "Jack Murphy\nSenior software architect with 10 years of experience in React, TypeScript and Node.js. Led projects automating the release pipeline."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Escalated support case priority low: customers experiencing report export failing since the v2.3 rollout."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Ticket #3777: report export failing. Priority critical. Reproduced on production after the v2.3 rollout. Escalating to engineering."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Helpdesk ticket priority critical. Reported issue: checkout errors. Started immediately after a certificate renewal."
+  },
+  {
+    "label": "resume",
+    "text": "Wei Zhang\nSenior machine learning engineer with 13 years of experience in NLP, PyTorch and model deployment. Led projects automating the release pipeline."
+  },
+  {
+    "label": "contract",
+    "text": "Licensing agreement between Hana Suzuki and Quantum Ops granting usage rights for 24 months, effective 2026-01-23."
+  },
+  {
+    "label": "contract",
+    "text": "Licensing agreement between Orion Logistics and Helios Retail granting usage rights for 24 months, effective 2026-12-11."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Support ticket priority low. Customer reports dashboard not loading after the weekend release."
+  },
+  {
+    "label": "invoice",
+    "text": "Monthly invoice INV-4484 issued by Contoso Ltd for $6,246, due 2026-11-27. Please remit payment to accounts receivable."
+  },
+  {
+    "label": "resume",
+    "text": "Carlos Mendez\nObjective: backend developer position. Proficient in SQL, Spark and ETL pipelines. 13+ years building scalable systems. Education: Data Science."
+  },
+  {
+    "label": "resume",
+    "text": "David Okafor \u2014 machine learning engineer. Skilled in Python, FastAPI and scikit-learn. Bachelor's degree in Electrical Engineering. Previously at Acme Cloud."
+  },
+  {
+    "label": "resume",
+    "text": "Tomas Silva\nWork experience: data scientist at Fabrikam Inc. Core skills: Python, FastAPI and scikit-learn. Education: Software Engineering. Achievements include scaling to 1M daily users."
+  },
+  {
+    "label": "resume",
+    "text": "Lena Muller\nWork experience: data engineer at Summit Financial. Core skills: Kubernetes, Docker and CI/CD. Education: Data Science. Achievements include improving model accuracy by 12 points."
+  },
+  {
+    "label": "invoice",
+    "text": "Billing statement INV-4197 for services rendered by Vandelay Industries. Amount payable $6004 within 45 days."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Incident report priority critical: report export failing affecting multiple users. Investigating root cause after an upstream provider outage."
+  },
+  {
+    "label": "invoice",
+    "text": "Monthly invoice INV-8763 issued by Cyberdyne Systems for $243, due 2026-10-21. Please remit payment to accounts receivable."
+  },
+  {
+    "label": "contract",
+    "text": "Service agreement between Carlos Mendez and Lena Muller for 24 months covering supply chain analytics, effective 2026-09-05."
+  },
+  {
+    "label": "resume",
+    "text": "Resume \u2014 Noah Williams. Professional summary: full-stack engineer with expertise in Go, gRPC and event streaming and a track record of scaling to 1M daily users."
+  },
+  {
+    "label": "contract",
+    "text": "Licensing agreement between Omar Haddad and Aperture Science granting usage rights for 12 months, effective 2026-08-23."
+  },
+  {
+    "label": "invoice",
+    "text": "Contoso Ltd invoice INV-8771: subtotal $9,234, applicable tax included, total payable by 2026-01-09."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Ticket #5724: login failures. Priority critical. Reproduced on production after a database migration. Escalating to engineering."
+  },
+  {
+    "label": "invoice",
+    "text": "Please find attached invoice INV-7651 from Stark Industries. Total amount $6140 due 2026-01-21; late fees apply after the due date."
+  },
+  {
+    "label": "resume",
+    "text": "Emily Watson\nWork experience: full-stack engineer at Atlas Compute. Core skills: Python, FastAPI and scikit-learn. Education: Information Systems. Achievements include reducing latency by 40%."
+  },
+  {
+    "label": "resume",
+    "text": "David Okafor\nObjective: full-stack engineer position. Proficient in Go, gRPC and event streaming. 4+ years building scalable systems. Education: Computer Science."
+  },
+  {
+    "label": "contract",
+    "text": "Non-disclosure agreement between Litware Systems and Initech regarding data platform migration, executed on 2026-10-27 in Berlin."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Bug report: app crashes on startup. Severity medium. Began after a certificate renewal; several customers impacted."
+  },
+  {
+    "label": "resume",
+    "text": "Noah Williams, full-stack engineer. 9 years of hands-on experience with NLP, PyTorch and model deployment. Holds a degree in Electrical Engineering and previously worked at Stark Industries."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Ticket #3267: login failures. Priority low. Reproduced on production after the latest deployment. Escalating to engineering."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Helpdesk ticket priority low. Reported issue: data sync issues. Started immediately after a database migration."
+  },
+  {
+    "label": "resume",
+    "text": "Grace Kim\nObjective: site reliability engineer position. Proficient in Go, gRPC and event streaming. 10+ years building scalable systems. Education: Information Systems."
+  },
+  {
+    "label": "resume",
+    "text": "Curriculum vitae of David Okafor. Experienced data engineer specializing in Kubernetes, Docker and CI/CD. Delivered key projects at Delta Systems."
+  },
+  {
+    "label": "invoice",
+    "text": "Billing statement INV-6842 for services rendered by Wayne Enterprises. Amount payable $156 within 15 days."
+  },
+  {
+    "label": "contract",
+    "text": "Licensing agreement between Zenith Analytics and Globex Corporation granting usage rights for 6 months, effective 2026-04-16."
+  },
+  {
+    "label": "resume",
+    "text": "Omar Haddad \u2014 backend developer. Skilled in distributed systems and microservices. Bachelor's degree in Electrical Engineering. Previously at Nova Hosting."
+  },
+  {
+    "label": "resume",
+    "text": "Noah Williams \u2014 product manager. Skilled in Kubernetes, Docker and CI/CD. Bachelor's degree in Information Systems. Previously at Orion Logistics."
+  },
+  {
+    "label": "contract",
+    "text": "Employment agreement between Wayne Enterprises and Lena Muller, effective 2026-11-01, governing the terms of engagement in Tokyo."
+  },
+  {
+    "label": "contract",
+    "text": "Contract between Sofia Rossi and Helios Retail for cloud infrastructure management. Either party may terminate with 30 days notice. Governing law: New York."
+  },
+  {
+    "label": "support_ticket",
+    "text": "User submitted a critical priority ticket about authentication token expiry. Logs show errors following an upstream provider outage."
+  },
+  {
+    "label": "contract",
+    "text": "This master services agreement is entered into between Fatima Ali and Jane Smith, effective 2026-04-16, with a term of 36 months."
+  },
+  {
+    "label": "resume",
+    "text": "Aisha Khan\nSenior software architect with 6 years of experience in Python, FastAPI and scikit-learn. Led projects reducing latency by 40%."
+  },
+  {
+    "label": "invoice",
+    "text": "Litware Systems invoice INV-5655: subtotal $7,851, applicable tax included, total payable by 2026-02-01."
+  },
+  {
+    "label": "resume",
+    "text": "Rahul Verma \u2014 data scientist. Skilled in Kubernetes, Docker and CI/CD. Bachelor's degree in Computer Science. Previously at BlueOak Consulting."
+  },
+  {
+    "label": "invoice",
+    "text": "Invoice INV-3471. Bill to finance department. Vendor Delta Systems. Amount $118. Net 60 payment terms, due 2026-04-03."
+  },
+  {
+    "label": "contract",
+    "text": "Employment agreement between Apex Manufacturing and Emily Watson, effective 2026-04-26, governing the terms of engagement in London."
+  },
+  {
+    "label": "resume",
+    "text": "Lena Muller\nWork experience: data scientist at Umbrella Corp. Core skills: data warehousing and dbt. Education: Information Systems. Achievements include reducing latency by 40%."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Bug report: app crashes on startup. Severity low. Began after the latest deployment; several customers impacted."
+  },
+  {
+    "label": "invoice",
+    "text": "Umbrella Corp invoice INV-6909: subtotal $778, applicable tax included, total payable by 2026-12-17."
+  },
+  {
+    "label": "invoice",
+    "text": "Billing statement INV-4134 for services rendered by Cyberdyne Systems. Amount payable $8,675 within 60 days."
+  },
+  {
+    "label": "invoice",
+    "text": "Monthly invoice INV-4078 issued by Nova Hosting for $6,576.84, due 2026-06-10. Please remit payment to accounts receivable."
+  },
+  {
+    "label": "contract",
+    "text": "Statement of work under the agreement between Wayne Enterprises and Atlas Compute: fraud detection services over a 36-month engagement with automatic renewal."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Bug report: data sync issues. Severity low. Began after a certificate renewal; several customers impacted."
+  },
+  {
+    "label": "resume",
+    "text": "Liam O'Brien\nSenior cloud solutions architect with 8 years of experience in distributed systems and microservices. Led projects cutting cloud costs by 30%."
+  },
+  {
+    "label": "contract",
+    "text": "Statement of work under the agreement between Omar Haddad and Contoso Ltd: supply chain analytics over a 36-month engagement with automatic renewal."
+  },
+  {
+    "label": "invoice",
+    "text": "Please find attached invoice INV-4968 from Fabrikam Inc. Total amount $5704 due 2026-04-02; late fees apply after the due date."
+  },
+  {
+    "label": "resume",
+    "text": "Resume \u2014 Emily Watson. Professional summary: software architect with expertise in React, TypeScript and Node.js and a track record of automating the release pipeline."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Support ticket priority high. Customer reports payment processing failures after an upstream provider outage."
+  },
+  {
+    "label": "resume",
+    "text": "Emily Watson\nSenior data scientist with 9 years of experience in SQL, Spark and ETL pipelines. Led projects cutting cloud costs by 30%."
+  },
+  {
+    "label": "invoice",
+    "text": "Initech invoice INV-4999: subtotal $6,846, applicable tax included, total payable by 2026-06-05."
+  },
+  {
+    "label": "invoice",
+    "text": "BlueOak Consulting invoice INV-9445: subtotal $178, applicable tax included, total payable by 2026-04-15."
+  },
+  {
+    "label": "resume",
+    "text": "Omar Haddad, cloud solutions architect. 5 years of hands-on experience with Go, gRPC and event streaming. Holds a degree in Data Science and previously worked at Initech."
+  },
+  {
+    "label": "resume",
+    "text": "Curriculum vitae of David Okafor. Experienced DevOps engineer specializing in NLP, PyTorch and model deployment. Delivered key projects at Adventure Works."
+  },
+  {
+    "label": "contract",
+    "text": "Non-disclosure agreement between Acme Cloud and Liam O'Brien regarding data platform migration, executed on 2026-08-17 in Mumbai."
+  },
+  {
+    "label": "contract",
+    "text": "This contract is made between Apex Manufacturing and Summit Financial on 2026-04-15; the parties agree to the obligations set out herein."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Support ticket priority low. Customer reports report export failing after a recent configuration change."
+  },
+  {
+    "label": "invoice",
+    "text": "Billing statement INV-6614 for services rendered by Hooli. Amount payable $365 within 60 days."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Escalated support case priority low: customers experiencing login failures since the v2.3 rollout."
+  },
+  {
+    "label": "contract",
+    "text": "Licensing agreement between Helios Retail and Cyberdyne Systems granting usage rights for 12 months, effective 2026-11-25."
+  },
+  {
+    "label": "resume",
+    "text": "Fatima Ali\nObjective: full-stack engineer position. Proficient in SQL, Spark and ETL pipelines. 12+ years building scalable systems. Education: Software Engineering."
+  },
+  {
+    "label": "contract",
+    "text": "This master services agreement is entered into between Lena Muller and Fabrikam Inc, effective 2026-01-07, with a term of 18 months."
+  },
+  {
+    "label": "contract",
+    "text": "This master services agreement is entered into between Omar Haddad and Ava Johnson, effective 2026-03-20, with a term of 24 months."
+  },
+  {
+    "label": "invoice",
+    "text": "Invoice INV-3606 from Acme Cloud for $876 due on 2026-06-25. Payment terms net 45."
+  },
+  {
+    "label": "invoice",
+    "text": "Reminder: invoice INV-2966 from Hooli for $144 remains unpaid and was due on 2026-05-04."
+  },
+  {
+    "label": "resume",
+    "text": "Priya Patel\nSenior cloud solutions architect with 14 years of experience in Kubernetes, Docker and CI/CD. Led projects improving model accuracy by 12 points."
+  },
+  {
+    "label": "contract",
+    "text": "Non-disclosure agreement between Noah Williams and Initech regarding payroll processing, executed on 2026-12-25 in New York."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Ticket #9032: report export failing. Priority low. Reproduced on production after a recent configuration change. Escalating to engineering."
+  },
+  {
+    "label": "contract",
+    "text": "Licensing agreement between Hana Suzuki and Wei Zhang granting usage rights for 12 months, effective 2026-04-17."
+  },
+  {
+    "label": "invoice",
+    "text": "Please find attached invoice INV-1605 from Acme Cloud. Total amount $7,772.73 due 2026-09-10; late fees apply after the due date."
+  },
+  {
+    "label": "contract",
+    "text": "Vendor contract between Orion Logistics and Priya Patel for supply chain analytics. Term 12 months, governed by the laws of New York, signed in Tokyo."
+  },
+  {
+    "label": "contract",
+    "text": "Contract between Emily Watson and Acme Cloud for fraud detection services. Either party may terminate with 30 days notice. Governing law: California."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Ticket #9318: search returning no results. Priority high. Reproduced on production after a database migration. Escalating to engineering."
+  },
+  {
+    "label": "contract",
+    "text": "Service agreement between Contoso Ltd and Carlos Mendez for 6 months covering customer support outsourcing, effective 2026-02-12."
+  },
+  {
+    "label": "contract",
+    "text": "Non-disclosure agreement between Michael Chen and Contoso Ltd regarding payroll processing, executed on 2026-11-08 in Austin."
+  },
+  {
+    "label": "resume",
+    "text": "Grace Kim \u2014 site reliability engineer. Skilled in SQL, Spark and ETL pipelines. Bachelor's degree in Software Engineering. Previously at Litware Systems."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Helpdesk ticket priority low. Reported issue: authentication token expiry. Started immediately after a recent configuration change."
+  },
+  {
+    "label": "support_ticket",
+    "text": "Bug report: data sync issues. Severity low. Began after the v2.3 rollout; several customers impacted."
+  },
+  {
+    "label": "resume",
+    "text": "David Okafor\nWork experience: data scientist at Stark Industries. Core skills: Python, FastAPI and scikit-learn. Education: Electrical Engineering. Achievements include improving model accuracy by 12 points."
+  },
+  {
+    "label": "contract",
+    "text": "Contract between Tomas Silva and Jane Smith effective 2026-01-09, signed in New York."
   }
 ]

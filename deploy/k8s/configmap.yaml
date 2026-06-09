@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: docupilot-config
+  namespace: docupilot
+data:
+  APP_ENV: "production"
+  VECTOR_BACKEND: "pgvector"
+  EMBEDDING_BACKEND: "sentence-transformers"
+  EXTRACTION_BACKEND: "ner"
+  AUTH_ENABLED: "true"
+  PROMETHEUS_ENABLED: "true"
+  MLFLOW_ENABLED: "true"
+  MLFLOW_TRACKING_URI: "http://mlflow:5000"

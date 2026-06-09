@@ -1,3 +1,12 @@
+# DocuPilot AI — local stack.
+#
+# Default (light, in-memory, no external services):
+#   docker compose up api
+#
+# Full production-like stack (Postgres+pgvector, MLflow, Prometheus, Grafana):
+#   docker compose --profile full up
+#
+# Individual profiles: db | mlops | observability
 version: "3.9"
 
 services:
@@ -12,3 +21,69 @@ services:
       - CORPUS_PATH=data/processed/corpus.json
       - FEEDBACK_PATH=data/processed/feedback.jsonl
       - TRAINING_DATA_PATH=data/raw/training_documents.json
+      # Toggle advanced backends here (all optional / fall back gracefully):
+      - VECTOR_BACKEND=${VECTOR_BACKEND:-memory}
+      - EMBEDDING_BACKEND=${EMBEDDING_BACKEND:-tfidf}
+      - EXTRACTION_BACKEND=${EXTRACTION_BACKEND:-rules}
+      - AUTH_ENABLED=${AUTH_ENABLED:-false}
+      - PROMETHEUS_ENABLED=true
+      - MLFLOW_ENABLED=${MLFLOW_ENABLED:-false}
+      - DATABASE_URL=postgresql://docupilot:docupilot@postgres:5432/docupilot
+      - MLFLOW_TRACKING_URI=${MLFLOW_TRACKING_URI:-http://mlflow:5000}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: docupilot-postgres
+    profiles: ["db", "full"]
+    environment:
+      - POSTGRES_USER=docupilot
+      - POSTGRES_PASSWORD=docupilot
+      - POSTGRES_DB=docupilot
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./deploy/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v2.16.2
+    container_name: docupilot-mlflow
+    profiles: ["mlops", "full"]
+    command: >
+      mlflow server --host 0.0.0.0 --port 5000
+      --backend-store-uri sqlite:////mlflow/mlflow.db
+      --artifacts-destination /mlflow/artifacts
+    ports:
+      - "5000:5000"
+    volumes:
+      - mlflowdata:/mlflow
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: docupilot-prometheus
+    profiles: ["observability", "full"]
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./deploy/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: docupilot-grafana
+    profiles: ["observability", "full"]
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./deploy/grafana/provisioning:/etc/grafana/provisioning:ro
+    depends_on:
+      - prometheus
+
+volumes:
+  pgdata:
+  mlflowdata:

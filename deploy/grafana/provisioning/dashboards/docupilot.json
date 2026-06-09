@@ -1,0 +1,29 @@
+{
+  "title": "DocuPilot AI",
+  "uid": "docupilot",
+  "schemaVersion": 39,
+  "version": 1,
+  "time": {"from": "now-1h", "to": "now"},
+  "panels": [
+    {
+      "type": "timeseries", "title": "Request rate by endpoint", "id": 1,
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0},
+      "targets": [{"expr": "sum by (endpoint) (rate(docupilot_requests_total[5m]))", "legendFormat": "{{endpoint}}"}]
+    },
+    {
+      "type": "timeseries", "title": "Predictions by label", "id": 2,
+      "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0},
+      "targets": [{"expr": "sum by (label) (rate(docupilot_predictions_total[5m]))", "legendFormat": "{{label}}"}]
+    },
+    {
+      "type": "stat", "title": "Corpus documents", "id": 3,
+      "gridPos": {"h": 8, "w": 6, "x": 0, "y": 8},
+      "targets": [{"expr": "docupilot_corpus_documents"}]
+    },
+    {
+      "type": "timeseries", "title": "p95 latency", "id": 4,
+      "gridPos": {"h": 8, "w": 18, "x": 6, "y": 8},
+      "targets": [{"expr": "histogram_quantile(0.95, sum by (le, endpoint) (rate(docupilot_request_latency_seconds_bucket[5m])))", "legendFormat": "{{endpoint}}"}]
+    }
+  ]
+}
