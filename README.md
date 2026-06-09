@@ -47,19 +47,15 @@ backend with auth, multi-tenancy, MLOps and observability.
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    A[User / App / Streamlit] -->|JWT| B[FastAPI + RBAC + Tenancy]
-    B --> C[Classifier]
-    B --> D[Extraction: rules / NER / LLM]
-    B --> E[Retrieval: in-memory / pgvector]
-    B --> F[Feedback + Audit]
-    C --> G[(Model artifacts + MLflow)]
-    E --> H[(Corpus / pgvector)]
-    B -.async.-> I[Drift monitor]
-    B -.scrape.-> J[Prometheus + Grafana]
-    K[Training pipeline] --> G
-```
+DocuPilot separates the **online serving path** (handling requests) from the **offline training / MLOps path** (producing and monitoring the model).
+
+### Serving (inference) path
+
+![DocuPilot AI - serving (inference) path](docs/architecture_serving.png)
+
+### Training & MLOps path
+
+![DocuPilot AI - training & MLOps path](docs/architecture_training.png)
 
 See [`docs/architecture.md`](docs/architecture.md) for the full design and the
 backend-selection matrix.
